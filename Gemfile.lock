@@ -38,6 +38,10 @@ GEM
       dry-inflector (~> 1.0)
       dry-logic (~> 1.4)
       zeitwerk (~> 2.6)
+    faraday (2.9.0)
+      faraday-net_http (>= 2.0, < 3.2)
+    faraday-net_http (3.1.0)
+      net-http
     grape (2.0.0)
       activesupport (>= 5)
       builder
@@ -59,6 +63,8 @@ GEM
     mustermann-grape (1.0.2)
       mustermann (>= 1.0.0)
     mutex_m (0.2.0)
+    net-http (0.4.1)
+      uri
     nio4r (2.7.0)
     parallel (1.24.0)
     parser (3.3.0.5)
@@ -126,6 +132,7 @@ GEM
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     unicode-display_width (2.5.0)
+    uri (0.13.0)
     webrick (1.8.1)
     zeitwerk (2.6.12)
 
@@ -135,6 +142,7 @@ PLATFORMS
 
 DEPENDENCIES
   debug
+  faraday
   grape
   puma
   rack

@@ -11,6 +11,8 @@ gem 'grape'
 
 gem 'zeitwerk'
 
+gem 'faraday'
+
 group :development, :test do
   gem 'debug'
 
