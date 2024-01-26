@@ -117,6 +117,7 @@ PLATFORMS
 DEPENDENCIES
   debug
   grape
+  rack
   rspec
   rubocop
 

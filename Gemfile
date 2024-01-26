@@ -2,6 +2,8 @@
 
 source 'https://rubygems.org'
 
+gem 'rack'
+
 gem 'grape'
 
 group :development, :test do
