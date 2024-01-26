@@ -120,6 +120,7 @@ DEPENDENCIES
   rack
   rspec
   rubocop
+  zeitwerk
 
 BUNDLED WITH
    2.5.5

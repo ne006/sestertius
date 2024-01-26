@@ -6,6 +6,8 @@ gem 'rack'
 
 gem 'grape'
 
+gem 'zeitwerk'
+
 group :development, :test do
   gem 'debug'
   gem 'rspec'
