@@ -10,6 +10,10 @@ gem 'zeitwerk'
 
 group :development, :test do
   gem 'debug'
+
   gem 'rspec'
+
   gem 'rubocop'
+  gem 'rubocop-rake'
+  gem 'rubocop-rspec'
 end
