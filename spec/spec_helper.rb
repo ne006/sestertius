@@ -2,7 +2,7 @@
 
 require_relative '../zeitwerk'
 
-require 'debug'
+require 'pry'
 
 Dir['./spec/support/**/*.rb'].each { |f| require f }
 

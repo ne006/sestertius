@@ -14,7 +14,7 @@ gem 'zeitwerk'
 gem 'faraday'
 
 group :development, :test do
-  gem 'debug'
+  gem 'pry'
 
   gem 'rspec'
 
