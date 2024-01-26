@@ -23,4 +23,7 @@ group :development, :test do
   gem 'rubocop-rspec'
 
   gem 'rack-test'
+
+  gem 'vcr'
+  gem 'webmock'
 end
