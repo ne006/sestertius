@@ -69,6 +69,9 @@ GEM
     rack (3.0.8)
     rack-accept (0.4.5)
       rack (>= 0.4)
+    rackup (2.1.0)
+      rack (>= 3)
+      webrick (~> 1.8)
     rainbow (3.1.1)
     rdoc (6.6.2)
       psych (>= 4.0.0)
@@ -118,6 +121,7 @@ GEM
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     unicode-display_width (2.5.0)
+    webrick (1.8.1)
     zeitwerk (2.6.12)
 
 PLATFORMS
@@ -128,6 +132,7 @@ DEPENDENCIES
   debug
   grape
   rack
+  rackup
   rspec
   rubocop
   rubocop-rake
