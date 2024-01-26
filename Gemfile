@@ -12,6 +12,7 @@ gem 'grape'
 gem 'zeitwerk'
 
 gem 'faraday'
+gem 'nokogiri'
 
 group :development, :test do
   gem 'pry'
