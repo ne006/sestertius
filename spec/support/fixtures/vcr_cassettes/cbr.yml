@@ -1,0 +1,127 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://cbr.ru/DailyInfoWebServ/DailyInfo.asmx
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="utf-8"?>
+        <soap12:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://www.w3.org/2003/05/soap-envelope">
+          <soap12:Body>
+            <KeyRateXML xmlns="http://web.cbr.ru/">
+              <fromDate>2024-01-29</fromDate>
+              <ToDate>2024-02-05</ToDate>
+            </KeyRateXML>
+          </soap12:Body>
+        </soap12:Envelope>
+    headers:
+      User-Agent:
+      - Faraday v2.9.0
+      Content-Type:
+      - application/soap+xml
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - ddos-guard
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=60
+      Set-Cookie:
+      - __ddg1_=WMw7hSECNDEYlaoajF37; Domain=.cbr.ru; HttpOnly; Path=/; Expires=Tue,
+        04-Feb-2025 09:13:41 GMT
+      Content-Type:
+      - application/soap+xml; charset=utf-8
+      Content-Length:
+      - '743'
+      Date:
+      - Mon, 05 Feb 2024 09:13:41 GMT
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Expires:
+      - "-1"
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      X-Frame-Options:
+      - SAMEORIGIN
+    body:
+      encoding: UTF-8
+      string: <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><KeyRateXMLResponse
+        xmlns="http://web.cbr.ru/"><KeyRateXMLResult><KeyRate xmlns=""><KR><DT>2024-02-05T00:00:00+03:00</DT><Rate>16.00</Rate></KR><KR><DT>2024-02-02T00:00:00+03:00</DT><Rate>16.00</Rate></KR><KR><DT>2024-02-01T00:00:00+03:00</DT><Rate>16.00</Rate></KR><KR><DT>2024-01-31T00:00:00+03:00</DT><Rate>16.00</Rate></KR><KR><DT>2024-01-30T00:00:00+03:00</DT><Rate>16.00</Rate></KR><KR><DT>2024-01-29T00:00:00+03:00</DT><Rate>16.00</Rate></KR></KeyRate></KeyRateXMLResult></KeyRateXMLResponse></soap:Body></soap:Envelope>
+  recorded_at: Mon, 05 Feb 2024 09:13:41 GMT
+- request:
+    method: post
+    uri: https://cbr.ru/DailyInfoWebServ/DailyInfo.asmx
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="utf-8"?>
+        <soap12:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://www.w3.org/2003/05/soap-envelope">
+          <soap12:Body>
+            <KeyRateXML xmlns="http://web.cbr.ru/">
+              <fromDate>2024-01-26</fromDate>
+              <ToDate>2024-02-05</ToDate>
+            </KeyRateXML>
+          </soap12:Body>
+        </soap12:Envelope>
+    headers:
+      User-Agent:
+      - Faraday v2.9.0
+      Content-Type:
+      - application/soap+xml
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - ddos-guard
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=60
+      Set-Cookie:
+      - __ddg1_=koAA94f4dzsG9XZLHJy8; Domain=.cbr.ru; HttpOnly; Path=/; Expires=Tue,
+        04-Feb-2025 09:13:41 GMT
+      Content-Type:
+      - application/soap+xml; charset=utf-8
+      Content-Length:
+      - '804'
+      Date:
+      - Mon, 05 Feb 2024 09:13:41 GMT
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Expires:
+      - "-1"
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      X-Frame-Options:
+      - SAMEORIGIN
+    body:
+      encoding: UTF-8
+      string: <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><KeyRateXMLResponse
+        xmlns="http://web.cbr.ru/"><KeyRateXMLResult><KeyRate xmlns=""><KR><DT>2024-02-05T00:00:00+03:00</DT><Rate>16.00</Rate></KR><KR><DT>2024-02-02T00:00:00+03:00</DT><Rate>16.00</Rate></KR><KR><DT>2024-02-01T00:00:00+03:00</DT><Rate>16.00</Rate></KR><KR><DT>2024-01-31T00:00:00+03:00</DT><Rate>16.00</Rate></KR><KR><DT>2024-01-30T00:00:00+03:00</DT><Rate>16.00</Rate></KR><KR><DT>2024-01-29T00:00:00+03:00</DT><Rate>16.00</Rate></KR><KR><DT>2024-01-26T00:00:00+03:00</DT><Rate>16.00</Rate></KR></KeyRate></KeyRateXMLResult></KeyRateXMLResponse></soap:Body></soap:Envelope>
+  recorded_at: Mon, 05 Feb 2024 09:13:41 GMT
+recorded_with: VCR 6.2.0
